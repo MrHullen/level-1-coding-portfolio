@@ -1,4 +1,20 @@
-function lesson1() {
+function maoriMihi() {
+
+}
+
+function nonMaoriMihi() {
+
+}
+
+function theRepeater() {
+
+}
+
+function madLibs() {
+  
+}
+
+function converstion() {
   let name = 'Mary'
   alert('We want to know if you like programming!')
   alert('Do you like programming ' + name + '?')
