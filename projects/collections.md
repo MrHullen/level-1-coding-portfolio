@@ -28,3 +28,18 @@ When you're comfortable with it, complete the following steps.
 * *Hint: use `.length`.*
 
 ---
+
+# Number Search
+
+Read over the code to understand what it does ([helpful link](https://javascript.info/array-methods#iterate-foreach)).
+
+When you're comfortable with it, complete the following steps.
+
+1. Change `searchTarget` to 2 and run the code to see if it's in the array.
+1. Change the `numberSearch` function so that it asks the user what number to search for.
+1. Test your code to check that it works on numbers that are in the array and ones that aren't,
+1. Add a button to `index.html` and write an `showNumbers` function so that the user can see the numbers.
+1. Add a button to `index.html` and write an `addNumber` function so that the user can add numbers to the array.
+1. Add input validation so that users can *only* add numbers to the array.
+1. Add a button to `index.html` and write a `removeNumber` function so that the user can remove numbers from the array using the index of the number.
+1. **(Extra)** Modify your `removeNumber` function so that it searches for and removes specific numbers, rather than using the index.
