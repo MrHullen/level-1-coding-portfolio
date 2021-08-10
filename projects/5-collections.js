@@ -60,3 +60,45 @@ function numberSearch() {
     }
   })
 }
+
+// #####################################
+// #### ----- Subject Details ----- ####
+// #####################################
+
+let subject = {
+  name: 'DigiTech',
+  room: 'Room 9',
+  students: 150,
+}
+
+function showSubject() {
+  alert(subject.name)
+}
+
+function changeSubject() {
+  let newName = prompt()
+  subject.name = newName
+}
+
+// #####################################
+// ####### ----- Find a Pet ----- ######
+// #####################################
+
+let petRegister = [
+  { name: 'Snuggles', type: 'cat', color: 'tabby' },
+  { name: 'Socks', type: 'cat', color: 'black and white' },
+  { name: 'Dogan', type: 'dog', color: 'brown' },
+]
+
+function petSearch() {
+  let searchType = prompt()
+  let searchResult = ''
+
+  petRegister.forEach( (currentPet) => {
+    if (currentPet.type == searchType) {
+      searchResult += currentPet.name
+    }
+  })
+
+  alert(searchResult)
+}

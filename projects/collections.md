@@ -43,3 +43,30 @@ When you're comfortable with it, complete the following steps.
 1. Add input validation so that users can *only* add numbers to the array.
 1. Add a button to `index.html` and write a `removeNumber` function so that the user can remove numbers from the array using the index of the number.
 1. **(Extra)** Modify your `removeNumber` function so that it searches for and removes specific numbers, rather than using the index.
+
+---
+
+# Subject Details
+
+Read over the code to understand what it does.
+
+When you're comfortable with it, complete the following steps.
+
+1. Add to the `alert` so that it gives some context to the name, e.g. *"The subject is DigiTech."*
+1. Add to the `alert` so that it includes the room and the number of students.
+1. Change the `prompt` to give the user some instructions on what to input.
+1. Add `prompt`s to update the room and number of students. Use **Show Subject** to test your changes.
+
+---
+
+# Find a Pet
+
+Read over the code to understand what it does.
+
+When you're comfortable with it, complete the following steps.
+
+1. Change your `prompt` to give the user some instructions on what to input.
+1. Add two more pet objects to your register array: a brown cat and a tabby dog.
+1. Change the `petSearch` function so that it searches for colour instead of type. Update your `prompt` as well.
+1. Change the `petSearch` function so that it outputs all of the details of each pet that it finds.
+1. Add an age value to each of the pet objects and include it in the output.
