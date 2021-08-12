@@ -1,3 +1,3 @@
 # Welcome
 
-(Collections)[collections.md]
+[Collections](collections.md)
