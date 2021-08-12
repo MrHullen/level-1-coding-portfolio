@@ -1,4 +1,8 @@
-# Future Job
+[Home](/) / Collections
+
+# Collections
+
+## Future Job
 
 Read over the code to understand what it does.
 
@@ -12,7 +16,7 @@ When you're comfortable with it, complete the following steps.
 
 ---
 
-# Subject List
+## Subject List
 
 Read over the code to understand what it does.
 
@@ -29,7 +33,7 @@ When you're comfortable with it, complete the following steps.
 
 ---
 
-# Number Search
+## Number Search
 
 Read over the code to understand what it does ([helpful link](https://javascript.info/array-methods#iterate-foreach)).
 
@@ -46,7 +50,7 @@ When you're comfortable with it, complete the following steps.
 
 ---
 
-# Subject Details
+## Subject Details
 
 Read over the code to understand what it does.
 
@@ -59,7 +63,7 @@ When you're comfortable with it, complete the following steps.
 
 ---
 
-# Find a Pet
+## Find a Pet
 
 Read over the code to understand what it does.
 
@@ -70,3 +74,17 @@ When you're comfortable with it, complete the following steps.
 1. Change the `petSearch` function so that it searches for colour instead of type. Update your `prompt` as well.
 1. Change the `petSearch` function so that it outputs all of the details of each pet that it finds.
 1. Add an age value to each of the pet objects and include it in the output.
+
+---
+
+## Pet Register
+
+Read over the code to understand what it does.
+
+When you're comfortable with it, complete the following steps.
+
+1. Change your `prompt` to give the user some instructions on what to input.
+1. Complete the `listPets` function so that outputs the register array.
+1. Change the `addPet` function so that it create the new pet object with the `type` as well, using another input.
+1. Add more inputs for colour and age.
+1. Change the `addPet` function so that it create the new pet object with all of the info from the inputs: **name**, **type**, **colour**, and **age**.

@@ -102,3 +102,27 @@ function petSearch() {
 
   alert(searchResult)
 }
+
+// #####################################
+// ##### ----- Pet Register ----- ######
+// #####################################
+
+function addPet() {
+  /// get the new pet's name
+  let newName = prompt()
+
+  // create the new pet object
+  let newPet = {
+    name: newName,
+  }
+
+  // add the pet object to the register array
+  petRegister = [
+    ...petRegister,
+    newPet,
+  ]
+}
+
+function listPets() {
+  // output all the pets
+}
