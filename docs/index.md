@@ -1,3 +1,0 @@
-# Welcome
-
-(Collections)[collections.md]
