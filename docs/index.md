@@ -1,5 +1,6 @@
-layout: post
-title: "POST TITLE"
+---
+layout: default
+---
 
 # Welcome
 
