@@ -29,6 +29,8 @@ function addSubject() {
 
   // add a new subject to the end of the subjects array
   subjects.push(newSubject)
+
+  alert(subjects)
 }
 
 function removeSubject() {
@@ -36,6 +38,8 @@ function removeSubject() {
 
   // remove 1 subject at the index position of the subjects array
   subjects.splice(index, 1)
+
+  alert(subjects)
 }
 
 // #####################################
@@ -59,6 +63,8 @@ function numberSearch() {
       searchResult = true
     }
   })
+
+  alert(searchTarget + ' found: ' + searchResult)
 }
 
 // #####################################
@@ -101,4 +107,25 @@ function petSearch() {
   })
 
   alert(searchResult)
+}
+
+// #####################################
+// ###### ----- Pet Register ----- #####
+// #####################################
+
+function addPet() {
+  let newName = prompt()
+
+  // create the new pet object
+  let newPet = {
+    name: newName,
+  }
+
+  // add the pet object to the register array
+  petRegister.push(newPet)
+}
+
+function listPets() {
+  // loop through the register array and output each pet object
+  
 }
