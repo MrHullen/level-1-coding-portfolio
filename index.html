@@ -2,29 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Coding Fundamentals</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+    <title>Coding Portfolio</title>
 
-    <style>
-      button {
-        display: block !important;
-        margin-top: 0.5em;
-      }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
 
     <script src="projects/1-input-output.js"></script>
     <script src="projects/2-variables.js"></script>
     <script src="projects/3-conditionals.js"></script>
     <script src="projects/4-iteration.js"></script>
     <script src="projects/5-collections.js"></script>
-    <script src="projects/6-functions.js"></script>
+    <script src="projects/6-flexibility.js"></script>
   </head>
 
   <body>
     <header class="hero is-info">
       <div class="hero-body">
-        <h1 class="title">Learning to code</h1>
-        <h2 class="subtitle">Lessons to help get you started with coding</h2>
+        <h1 class="title">Coding Portfolio</h1>
+        <h2 class="subtitle">Projects to help get you started with coding</h2>
       </div>
     </header>
 
@@ -32,7 +26,7 @@
       <div class="columns">
 
         <!-- Column -->
-        <div class="column">
+        <section class="column">
           <h2 class="subtitle">Input and Output</h2>
 
           <button class="button is-light is-danger" onclick="welcome()"> Conversation </button>
@@ -41,30 +35,31 @@
           <button class="button is-light is-danger" onclick="theRepeater()"> The Repeater </button>
           <button class="button is-light is-danger" onclick="madLibs()"> MadLibs </button>
           
-        </div>
+        </section>
 
         <!-- Column -->
-        <div class="column">
+        <section class="column">
           <h2 class="subtitle">Variables</h2>
 
           <button class="button is-light is-danger" onclick="pupperAge()"> Pupper Age </button>
           <button class="button is-light is-danger" onclick="gstCalculator()"> GST Calculator </button>
           <button class="button is-light is-danger" onclick="lessonsToSeconds()"> Lessons to Seconds </button>
           <button class="button is-light is-danger" onclick="lifeRemaining()"> Life Remaining </button>
-        </div>
+        </section>
 
         <!-- Column -->
-        <div class="column">
+        <section class="column">
           <h2 class="subtitle">Iteration</h2>
 
-          <button class="button is-light is-danger" onclick="countdown()"> Counting </button>
+          <button class="button is-light is-danger" onclick="liftOff()"> Lift Off </button>
+          <button class="button is-light is-danger" onclick="attendees()"> Attendess </button>
           <button class="button is-light is-danger" onclick="squareSeries()"> Square Series </button>
           <button class="button is-light is-danger" onclick="factorial()"> Factorial </button>
           <button class="button is-light is-danger" onclick="fibonacci()"> Fibonacci </button>
-        </div>
+        </section>
 
         <!-- Column -->
-        <div class="column">
+        <section class="column">
           <h2 class="subtitle">Conditionals</h2>
 
           <button class="button is-light is-danger" onclick="moreThan2()"> More Than 2 </button>
@@ -73,10 +68,10 @@
           <button class="button is-light is-danger" onclick="calculator()"> Calculator </button>
           <button class="button is-light is-danger" onclick="capital()"> Capital </button>
           <button class="button is-light is-danger" onclick="mealPlanner()"> Meal Planner </button>
-        </div>
+        </section>
 
         <!-- Column -->
-        <div class="column">
+        <section class="column">
           <h2 class="subtitle">Collections</h2>
 
           <button class="button is-light is-danger" onclick="futureJob()"> Future Job </button>
@@ -86,22 +81,34 @@
           <button class="button is-light is-danger" onclick="showSubject()"> Subject Details </button>
           <button class="button is-light is-danger" onclick="changeSubject()"> Change Subject </button>
           <button class="button is-light is-danger" onclick="petSearch()"> Pet Search </button>
-        </div>
+        </section>
 
         <!-- Column -->
-        <div class="column">
-          <h2 class="subtitle">Errors and Testing</h2>
+        <section class="column">
+          <h2 class="subtitle">Flexibility</h2>
 
           <button class="button is-light is-danger">Lesson 8 </button>
           <button class="button is-light is-danger">Lesson 9 </button>
-        </div>
+        </section>
       </div>
     </main>
 
     <footer class="footer">
-      <p class="content has-text-centered">
-        <strong>Learning to Code</strong> by <a href="https://craighead.school.nz/">Craighead Diocesan School Level 1 DigiTech Class</a>.
-      </p>
+      <div class="content has-text-centered">
+        <p>
+          <strong>Coding Portfolio</strong> template by <a href="https://github.com/MrHullen">Mr Hullen</a>
+        </p>
+        <p>
+          &copy; <a href="https://craighead.school.nz">Craighead Diocesan School</a>
+        </p>
+      </div>
     </footer>
   </body>
+
+  <style>
+    button {
+      display: block !important;
+      margin-top: 0.5em;
+    }
+  </style>
 </html>

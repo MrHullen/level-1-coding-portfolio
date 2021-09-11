@@ -2,7 +2,7 @@
 // ####### ----- Countdown ----- ######
 // ####################################
 
-function countdown() {
+function liftOff() {
   let count = 10
  
   while (count > 0) {
